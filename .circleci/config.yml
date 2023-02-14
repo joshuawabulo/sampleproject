@@ -23,7 +23,7 @@ jobs:
       - checkout
       - run:
          name: "echo an env var that is part of our project" 
-         command: echo $developer
+         command: echo $My_ENV_VAR
 workflows:
   # Name the workflow "welcome"
   welcome:
