@@ -21,7 +21,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
 
-  print_yo:
+  print-yo:
     docker:
       - image: circleci/node:13.8.0
 
